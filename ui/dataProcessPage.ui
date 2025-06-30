@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QWidget" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>954</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>回流焊仿真软件</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,20">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="text">
+        <string>回流焊仿真软件</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="argumentPage">
+       <property name="text">
+        <string>参数设置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modelPage">
+       <property name="text">
+        <string>模型设置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dataProcessPage">
+       <property name="text">
+        <string>数据处理</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitSystem">
+       <property name="text">
+        <string>退出系统</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>数据处理</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,20,1">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,5">
+        <item>
+         <widget class="QPushButton" name="datasetSelectBtn">
+          <property name="text">
+           <string>选择数据集</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="datasetPath">
+          <property name="text">
+           <string>暂未导入文件</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>内容处理</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="missingItemsCheckBtn">
+             <property name="text">
+              <string>缺失值处理</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="outlierHandlingBt">
+             <property name="text">
+              <string>异常值处理</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QPushButton" name="duplicatesProcessingBtn">
+             <property name="text">
+              <string>重复值处理</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="datatypeCheckBtn">
+             <property name="text">
+              <string>数据类型检查</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>数据可视化</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QComboBox" name="componentSelectionBox">
+           <item>
+            <property name="text">
+             <string>贴片电阻</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>塑封芯片</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>陶封芯片</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>贴片电阻</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pictureGenerationBtn">
+           <property name="text">
+            <string>生成图片</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
