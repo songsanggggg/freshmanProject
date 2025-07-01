@@ -1,0 +1,14 @@
+"filename", "language", "Python", "pip requirements", "Markdown", "CSV", "comment", "blank", "total"
+"c:\Users\songsanggggg\Desktop\freshmanProject\README.md", "Markdown", 0, 0, 2, 0, 0, 1, 3
+"c:\Users\songsanggggg\Desktop\freshmanProject\example\dataset.csv", "CSV", 0, 0, 0, 4091, 0, 1, 4092
+"c:\Users\songsanggggg\Desktop\freshmanProject\main.py", "Python", 52, 0, 0, 0, 2, 17, 71
+"c:\Users\songsanggggg\Desktop\freshmanProject\requirements.txt", "pip requirements", 0, 167, 0, 0, 0, 0, 167
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\ArgumentPage.py", "Python", 111, 0, 0, 0, 1, 11, 123
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\BasePage.py", "Python", 31, 0, 0, 0, 1, 7, 39
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\Config.py", "Python", 1, 0, 0, 0, 0, 0, 1
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\DataProcessPage.py", "Python", 105, 0, 0, 0, 1, 12, 118
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\GerberRender.py", "Python", 23, 0, 0, 0, 1, 7, 31
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\ModelPage.py", "Python", 32, 0, 0, 0, 1, 7, 40
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\Window.py", "Python", 18, 0, 0, 0, 1, 4, 23
+"c:\Users\songsanggggg\Desktop\freshmanProject\src\temperaturePrediction.py", "Python", 49, 0, 0, 0, 0, 9, 58
+"Total", "-", 422, 167, 2, 4091, 8, 76, 4766
